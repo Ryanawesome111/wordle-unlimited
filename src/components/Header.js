@@ -25,14 +25,7 @@ export default function Header({ resetGame }) {
         <img src={Help} alt="help" width={24} onClick={toggleHelp} />
         <img src={Refresh} alt="refresh" width={24} onClick={resetGame} />
       </div>
-      <h2>WORDLE UNLIMITED</h2>
-      <div className="App-icon-container">
-        <img
-          src={Stats}
-          alt="stats"
-          width={24}
-          onClick={() => alert('Not yet implemented.')}
-        />
+      <h2>Studentle Unlimited</h2>
         <img
           src={Settings}
           alt="settings"
